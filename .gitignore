@@ -1,0 +1,22 @@
+# Paket klasörleri (Hem Frontend hem Backend için)
+node_modules/
+
+# Gizli anahtarlar, veritabanı şifreleri (Backend için kritik)
+.env
+.env.*
+!.env.example
+
+# Frontend build çıktıları
+dist/
+dist-ssr/
+
+# Sistem ve Mac dosyaları
+.DS_Store
+
+# Loglar ve hata kayıtları
+*.log
+npm-debug.log*
+
+# Editör ayarları
+.vscode/
+.idea/
